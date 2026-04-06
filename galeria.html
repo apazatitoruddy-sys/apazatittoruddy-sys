@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body class="bg-dark text-light">
+
+<div class="social-sidebar shadow">
+    <a href="#"><i class="bi bi-facebook"></i></a>
+    <a href="#"><i class="bi bi-instagram"></i></a>
+    <a href="#"><i class="bi bi-twitter-x"></i></a>
+    <a href="#"><i class="bi bi-linkedin"></i></a>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom shadow sticky-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="imagenes/logo.jfif" alt="Logo" width="45" height="45" class="d-inline-block align-text-top me-2 rounded-circle border border-info">
+            <span class="fw-bold text-info fs-3">TechNova</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="quienes-somos.html">Quiénes Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="galeria.html">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3 active" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="video-header shadow">
+    <video autoplay muted loop playsinline poster="imagen-portada.jpg">
+        <source src="imagenes/video3.mp4" type="video/mp4">
+        Tu navegador no soporta videos.
+    </video>
+
+    <div class="video-overlay">
+        <h1>TechNova<br>Design</h1>
+        <a href="contacto.html" class="btn-gradient">Contáctame</a>
+    </div>
+
+    <div class="curve-container">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M-27.93,88.33 C147.01,231.42 472.63,-93.23 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #212529;"></path>
+        </svg>
+    </div>
+</header>
+
+
+
+<section id="galeria" class="container py-5">
+    <h2 class="text-center text-info mb-4">Nuestra Galería</h2>
+    <div class="row g-3">
+        <div class="col-md-4 col-sm-6 text-center">
+            <img src="imagenes/slider1.jpg" class="galeria-img shadow w-100" alt="Conexión Global">
+            <p class="small mt-2">Visión futurista de la IA gestionando infraestructura inteligente y movilidad urbana.</p>
+        </div>
+        <div class="col-md-4 col-sm-6 text-center">
+            <img src="imagenes/slider2.png" class="galeria-img shadow w-100" alt="Análisis de Datos">
+            <p class="small mt-2">Usuario analizando métricas y paneles de control en un entorno digital moderno.</p>
+        </div>
+        <div class="col-md-4 col-sm-6 text-center">
+            <img src="imagenes/slider3.jpg" class="galeria-img shadow w-100" alt="IA en tus Manos">
+            <p class="small mt-2">Representación del potencial humano guiando la inteligencia artificial tecnológica.</p>
+        </div>
+        <div class="col-md-4 col-sm-6 text-center">
+            <img src="imagenes/apps.jfif" class="galeria-img shadow w-100" alt="Ecosistema Digital">
+            <p class="small mt-2">Mosaico dinámico de iconos que ilustra la hiperconectividad de las aplicaciones.</p>
+        </div>
+        <div class="col-md-4 col-sm-6 text-center">
+            <img src="imagenes/desweb.jfif" class="galeria-img shadow w-100" alt="Código Fuente">
+            <p class="small mt-2">Líneas de código de programación que reflejan la complejidad del desarrollo software.</p>
+        </div>
+        <div class="col-md-4 col-sm-6 text-center">
+            <img src="imagenes/logo.jfif" class="galeria-img shadow w-100" alt="Robot Asistente">
+            <p class="small mt-2">Robot amigable integrando la robótica con servicios de asistencia móvil.</p>
+        </div>
+        <div class="col-md-4 col-sm-6 text-center">
+            <img src="imagenes/soporte.jfif" class="galeria-img shadow w-100" alt="Soporte Técnico">
+            <p class="small mt-2">Especialistas realizando labores de mantenimiento y depuración de errores.</p>
+        </div>
+        <div class="col-md-4 col-sm-6 text-center">
+            <img src="imagenes/slider1.jpg" class="galeria-img shadow w-100" alt="Conexión Global">
+            <p class="small mt-2">Convergencia entre la capacidad cognitiva humana y la logística inteligente.</p>
+        </div>
+        <div class="col-md-4 col-sm-6 text-center">
+            <img src="imagenes/slider2.png" class="galeria-img shadow w-100" alt="Análisis de Datos">
+            <p class="small mt-2">Visualización clara de datos complejos para la toma de decisiones estratégicas.</p>
+        </div>
+    </div>
+</section>
+<footer id="contacto" class="bg-black py-5 border-top border-secondary">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-4 text-center text-lg-start">
+                <h3 class="text-info fw-bold">TechNova</h3>
+                <p class="text-secondary small">Transformando el presente, codificando el futuro. Tu socio tecnológico de confianza.</p>
+                <div class="mt-4">
+                    <a href="#" class="btn btn-outline-info btn-sm rounded-circle me-2"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="btn btn-outline-info btn-sm rounded-circle me-2"><i class="bi bi-github"></i></a>
+                    <a href="#" class="btn btn-outline-info btn-sm rounded-circle"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center">
+                <h5 class="fw-bold mb-4">Newsletter</h5>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control bg-dark border-secondary text-white" placeholder="Tu Email">
+                    <button class="btn btn-info" type="button">Unirse</button>
+                </div>
+                <p class="text-secondary small">Únete a +10k suscriptores y recibe noticias exclusivas.</p>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <h5 class="fw-bold mb-4">Contacto</h5>
+                <p class="text-secondary mb-1">Calle Innovación #123, Silicon Valley</p>
+                <p class="text-secondary mb-1">+1 (800) TECH-NOVA</p>
+                <p class="text-info">info@technova.com</p>
+            </div>
+        </div>
+        <hr class="bg-secondary my-5">
+        <p class="text-center text-secondary small mb-0">© 2026 TechNova Labs - Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,271 @@
+ /* Estilos personalizados para el menú mejorado */
+ /* MENU */
+        .navbar-custom {
+            background: rgba(0, 0, 0, 0.9) !important;
+            backdrop-filter: blur(10px);
+            border-bottom: 2px solid #0dcaf0;
+        }
+        .nav-link {
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+            transition: 0.3s;
+        }
+        .nav-link:hover {
+            color: #0dcaf0 !important;
+            text-shadow: 0 0 8px #0dcaf0;
+        }
+        .nav-link.active {
+            color: #0dcaf0 !important;
+            font-weight: bold;
+            border-bottom: 1px solid #0dcaf0;
+        }
+        .navbar-brand img {
+            transition: transform 0.3s ease;
+        }
+        .navbar-brand:hover img {
+            transform: scale(1.1);
+        }
+        /* Ajuste para que el contenido no quede pegado al menú fijo */
+        body { padding-top: 20px; }
+
+        /* Estilos para el menú lateral izquierdo sin tocar el resto */
+        /* MENU SOCIAL */
+        .social-sidebar {
+            position: fixed;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            z-index: 1000;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 0 10px 10px 0;
+            padding: 10px;
+        }
+        .social-sidebar a {
+            color: #0dcaf0; /* Color info de Bootstrap */
+            font-size: 24px;
+            margin: 10px 5px;
+            transition: transform 0.3s;
+        }
+        .social-sidebar a:hover {
+            transform: scale(1.2);
+            color: #fff;
+        }
+
+        /* BLOG */
+        .card-img-hover {
+            transition: transform 0.5s ease;
+        }
+        .card:hover .card-img-hover {
+            transform: scale(1.05);
+        }
+        .badge-category {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            z-index: 10;
+        }
+
+        /* GALERIA */
+        /* Menú lateral izquierdo */
+        .social-sidebar {
+            position: fixed;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            z-index: 1000;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 0 10px 10px 0;
+            padding: 10px;
+        }
+        .social-sidebar a {
+            color: #0dcaf0;
+            font-size: 24px;
+            margin: 10px 5px;
+            transition: transform 0.3s;
+        }
+        .social-sidebar a:hover {
+            transform: scale(1.2);
+            color: #fff;
+        }
+
+        /* Estilo para el video */
+        .video-header {
+            width: 100%;
+            height: 450px;
+            overflow: hidden;
+            position: relative;
+        }
+        .video-header video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Ajuste de imágenes de galería */
+        .galeria-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .galeria-img:hover {
+            opacity: 0.8;
+        }
+
+        /* Estilos del video GALERIA */
+    /* Contenedor principal responsive */
+    .video-header {
+        position: relative;
+        width: 100%;
+        height: 70vh; /* Altura en laptops/PC */
+        min-height: 400px; /* Altura mínima para que no se vea muy pequeño */
+        overflow: hidden;
+        background-color: #000;
+    }
+
+    /* Video que se adapta a cualquier pantalla */
+    .video-header video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* MAGIA: El video llena el espacio sin deformarse */
+        z-index: 0;
+        opacity: 0.6;
+    }
+
+    /* Contenedor de Texto y Botón */
+    .video-overlay {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 10%; /* Espaciado lateral adaptable */
+    }
+
+    .video-overlay h1 {
+        font-size: clamp(2.5rem, 8vw, 4.5rem); /* Tamaño fluido: mínimo 2.5rem, máximo 4.5rem */
+        font-weight: 300;
+        letter-spacing: 5px;
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    /* Botón adaptable */
+    .btn-gradient {
+        background: linear-gradient(90deg, #0dcaf0 0%, #0dcaf0 100%);
+        border: none;
+        color: #fff;
+        padding: 12px 35px;
+        font-size: 1.1rem;
+        border-radius: 5px;
+        width: fit-content;
+        font-weight: bold;
+        text-decoration: none;
+        transition: transform 0.3s;
+    }
+
+    /* Ajuste de la Curva para que no se rompa */
+    .curve-container {
+        position: absolute;
+        bottom: -1px; /* Pegado abajo */
+        left: 0;
+        width: 100%;
+        height: 80px; /* Altura de la curva reducida para móviles */
+        z-index: 3;
+    }
+
+    /* En pantallas grandes, la curva puede ser más alta */
+    @media (min-width: 992px) {
+        .video-header { height: 85vh; }
+        .curve-container { height: 150px; }
+    }
+
+    /* INDEX */
+        /* --- ESTILOS PARA EL SLIDER CON CURVA --- */
+        .hero-slider-container {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .carousel-item {
+            height: 85vh;
+            min-height: 500px;
+            background-color: #000;
+        }
+
+        .carousel-item img {
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.6; /* Oscurece la imagen para leer el texto */
+        }
+
+        /* Texto centrado estilo imagen EDI */
+        .carousel-caption-custom {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            width: 80%;
+            z-index: 10;
+        }
+
+        .carousel-caption-custom h1 {
+            font-size: clamp(2.5rem, 8vw, 4.5rem);
+            font-weight: 200;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+
+        /* Botón con degradado Photography Design */
+        .btn-gradient-custom {
+            background: linear-gradient(90deg, #5de0b1 0%, #e2c35d 100%);
+            border: none;
+            color: #fff;
+            padding: 12px 40px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+
+        .btn-gradient-custom:hover {
+            transform: scale(1.05);
+            color: #fff;
+        }
+
+        /* La Curva Ondulada Perfecta */
+        .curve-divider {
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            width: 100%;
+            height: 120px;
+            z-index: 15;
+            line-height: 0;
+        }
+
+        .curve-divider svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .curve-divider path {
+            fill: #212529; /* Color del bg-dark de la siguiente sección */
+        }

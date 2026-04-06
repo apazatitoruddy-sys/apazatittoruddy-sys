@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova | Innovación</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body class="bg-dark text-light">
+
+<div class="social-sidebar shadow">
+    <a href="#"><i class="bi bi-facebook"></i></a>
+    <a href="#"><i class="bi bi-instagram"></i></a>
+    <a href="#"><i class="bi bi-twitter-x"></i></a>
+    <a href="#"><i class="bi bi-linkedin"></i></a>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom shadow sticky-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="imagenes/logo.jfif" alt="Logo" width="45" height="45" class="me-2 rounded-circle border border-info">
+            <span class="fw-bold text-info fs-3">TechNova</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link px-3 active" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="quienes-somos.html">Quiénes Somos</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="galeria.html">Galería</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="blog.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="video-header shadow">
+    <video autoplay muted loop playsinline poster="imagen-portada.jpg">
+        <source src="imagenes/video2.mp4" type="video/mp4">
+        Tu navegador no soporta videos.
+    </video>
+
+    <div class="video-overlay">
+        <h1>TechNova<br>Design</h1>
+        <a href="contacto.html" class="btn-gradient">Contáctame</a>
+    </div>
+
+    <div class="curve-container">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M-27.93,88.33 C147.01,231.42 472.63,-93.23 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #212529;"></path>
+        </svg>
+    </div>
+</header>
+
+    <div class="curve-divider">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none">
+            <path d="M-27.93,88.33 C147.01,231.42 472.63,-93.23 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none;"></path>
+        </svg>
+    </div>
+</div>
+
+<section id="nosotros" class="container py-5 my-5">
+    <div class="row align-items-center g-5">
+        <div class="col-lg-6" data-aos="fade-right">
+            <span class="text-info fw-bold text-uppercase tracking-widest">Nuestra Esencia</span>
+            <h2 class="display-5 fw-bold my-3">Liderando la era de la <span class="text-info">Inteligencia Artificial</span></h2>
+            <p class="text-secondary fs-5">En TechNova, no solo desarrollamos software; creamos activos estratégicos que impulsan el crecimiento de nuestros socios. Nuestra misión es fusionar la creatividad humana con la potencia de la IA.</p>
+            <p class="text-secondary small">Desde nuestra fundación en 2026, hemos trabajado con más de 200 startups y corporaciones para digitalizar procesos complejos, reducir costos operativos y mejorar la experiencia del cliente final mediante interfaces intuitivas y backend robusto.</p>
+            <div class="row mt-4">
+                <div class="col-6">
+                    <h4 class="text-info fw-bold mb-0">150+</h4>
+                    <p class="text-secondary small">Ingenieros Expertos</p>
+                </div>
+                <div class="col-6">
+                    <h4 class="text-info fw-bold mb-0">99.9%</h4>
+                    <p class="text-secondary small">Uptime Garantizado</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+            <img src="imagenes/oficina-equipo.jpg" alt="Equipo Trabajando" class="img-fluid img-overlap">
+        </div>
+    </div>
+</section>
+
+<section id="servicios" class="container py-5">
+    <div class="row g-4 text-center">
+        <div class="col-md-4">
+            <div class="card bg-secondary text-light h-100 shadow">
+                <div class="card-body">
+                    <img src="imagenes/desweb.jfif" alt="Desarrollo" class="img-fluid mb-3" style="height: 150px; object-fit: cover;">
+                    <h3 class="text-info">Desarrollo Web</h3>
+                    <p>Creamos sitios modernos, rápidos y adaptables.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card bg-secondary text-light h-100 shadow">
+                <div class="card-body">
+                    <img src="imagenes/apps.jfif" alt="Aplicaciones" class="img-fluid mb-3" style="height: 150px; object-fit: cover;">
+                    <h3 class="text-info">Aplicaciones</h3>
+                    <p>Soluciones móviles y de escritorio personalizadas.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card bg-secondary text-light h-100 shadow">
+                <div class="card-body">
+                    <img src="imagenes/soporte.jfif" alt="soporte" class="img-fluid mb-3" style="height: 150px; object-fit: cover;">
+                    <h3 class="text-info">Soporte Técnico</h3>
+                    <p>Asistencia profesional para tu empresa.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container py-5 text-center">
+    <h2 class="mb-4 text-warning">Nuestros Planes</h2>
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card border-0 shadow h-100">
+                <div class="card-body text-dark">
+                    <h4>Básico</h4>
+                    <h2 class="text-primary">$99</h2>
+                    <p>Ideal para comenzar</p>
+                    <button class="btn btn-outline-primary">Elegir</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-0 shadow-lg h-100 bg-warning text-dark">
+                <div class="card-body">
+                    <h4>Profesional</h4>
+                    <h2>$199</h2>
+                    <p>Para negocios en crecimiento</p>
+                    <button class="btn btn-dark">Elegir</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-0 shadow h-100">
+                <div class="card-body text-dark">
+                    <h4>Empresarial</h4>
+                    <h2 class="text-primary">$299</h2>
+                    <p>Soluciones completas</p>
+                    <button class="btn btn-outline-primary">Elegir</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="servicios" class="bg-black py-5">
+    <div class="container py-5">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <h2 class="display-4 fw-bold">Servicios <span class="text-info">Especializados</span></h2>
+            <p class="text-secondary mx-auto" style="max-width: 600px;">Ofrecemos un ecosistema completo de herramientas digitales para que tu empresa nunca deje de evolucionar.</p>
+        </div>
+        <div class="row g-4 text-center">
+            <div class="col-md-4" data-aos="flip-left">
+                <div class="card bg-secondary text-light h-100 shadow card-hover border-0">
+                    <div class="card-body p-5">
+                        <img src="imagenes/desweb.jfif" alt="Web" class="img-fluid mb-4 rounded-3 shadow-sm">
+                        <h3 class="text-info h4">Desarrollo Web Pro</h3>
+                        <p class="small text-light-50">E-commerce, portales corporativos y aplicaciones web progresivas (PWA) de alto rendimiento.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="flip-left" data-aos-delay="100">
+                <div class="card bg-secondary text-light h-100 shadow card-hover border-0">
+                    <div class="card-body p-5">
+                        <img src="imagenes/apps.jfif" alt="Apps" class="img-fluid mb-4 rounded-3 shadow-sm">
+                        <h3 class="text-info h4">Mobile Apps</h3>
+                        <p class="small text-light-50">Apps nativas y multiplataforma diseñadas para retener usuarios y generar engagement real.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="flip-left" data-aos-delay="200">
+                <div class="card bg-secondary text-light h-100 shadow card-hover border-0">
+                    <div class="card-body p-5">
+                        <img src="imagenes/soporte.jfif" alt="Soporte" class="img-fluid mb-4 rounded-3 shadow-sm">
+                        <h3 class="text-info h4">Cloud & Seguridad</h3>
+                        <p class="small text-light-50">Protegemos tu infraestructura con los estándares más altos de ciberseguridad internacional.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="estadisticas" class="container py-5 my-5">
+    <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="display-4 fw-bold">TechNova en <span class="text-info">Números</span></h2>
+        <p class="text-secondary">La confianza de nuestros clientes respalda nuestro crecimiento</p>
+    </div>
+    <div class="row g-4">
+        <div class="col-md-3 col-sm-6" data-aos="zoom-in">
+            <div class="stat-card">
+                <i class="bi bi-people fs-1 text-info"></i>
+                <div class="counter" id="counter1">0</div>
+                <p class="text-secondary mb-0">Clientes Satisfechos</p>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="stat-card">
+                <i class="bi bi-check-circle fs-1 text-info"></i>
+                <div class="counter" id="counter2">0</div>
+                <p class="text-secondary mb-0">Proyectos Completados</p>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="stat-card">
+                <i class="bi bi-globe fs-1 text-info"></i>
+                <div class="counter" id="counter3">0</div>
+                <p class="text-secondary mb-0">Países Alcanzados</p>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="stat-card">
+                <i class="bi bi-trophy fs-1 text-info"></i>
+                <div class="counter" id="counter4">0</div>
+                <p class="text-secondary mb-0">Premios Recibidos</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="blog" class="container py-5 my-5">
+    <div class="text-center mb-5">
+        <h2 class="fw-bold">TechNova <span class="text-info">Insights</span></h2>
+        <p class="text-secondary">Explora las últimas tendencias en tecnología y negocios.</p>
+    </div>
+    <div class="row g-4">
+        <div class="col-md-4" data-aos="fade-up">
+            <div class="card bg-secondary border-0 h-100 overflow-hidden">
+                <div class="card-body p-4">
+                    <i class="bi bi-robot text-info display-6 mb-3"></i>
+                    <small class="text-info">Abril 2032</small>
+                    <h5 class="card-title fw-bold mt-2">La IA en el Retail Moderno</h5>
+                    <p class="card-text text-secondary small">Cómo optimizar inventarios usando redes neuronales predictivas y machine learning.</p>
+                    <a href="#" class="text-info text-decoration-none fw-bold">Leer más <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card bg-secondary border-0 h-100 overflow-hidden">
+                <div class="card-body p-4">
+                    <i class="bi bi-shield-check text-info display-6 mb-3"></i>
+                    <small class="text-info">Marzo 2032</small>
+                    <h5 class="card-title fw-bold mt-2">Seguridad en la Nube</h5>
+                    <p class="card-text text-secondary small">5 pasos críticos para blindar tu base de datos empresarial hoy mismo contra amenazas.</p>
+                    <a href="#" class="text-info text-decoration-none fw-bold">Leer más <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card bg-secondary border-0 h-100 overflow-hidden">
+                <div class="card-body p-4">
+                    <i class="bi bi-graph-up text-info display-6 mb-3"></i>
+                    <small class="text-info">Febrero 2032</small>
+                    <h5 class="card-title fw-bold mt-2">Transformación Digital 2032</h5>
+                    <p class="card-text text-secondary small">Las 10 tecnologías que cambiarán tu negocio este año y cómo implementarlas.</p>
+                    <a href="#" class="text-info text-decoration-none fw-bold">Leer más <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="testimonios" class="bg-black py-5">
+    <div class="container py-5">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <h2 class="display-4 fw-bold">Lo que dicen <span class="text-info">nuestros clientes</span></h2>
+            <p class="text-secondary">Más de 500 empresas confían en TechNova</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4" data-aos="flip-left">
+                <div class="testimonial-card">
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <p class="mt-3">"TechNova transformó por completo nuestra operación digital. Su equipo es excepcional y los resultados superaron nuestras expectativas."</p>
+                    <div class="d-flex align-items-center mt-3">
+                        <div class="bg-info rounded-circle me-3" style="width: 50px; height: 50px;"></div>
+                        <div>
+                            <h6 class="mb-0">María González</h6>
+                            <small class="text-secondary">CEO de Innovatech</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="flip-left" data-aos-delay="100">
+                <div class="testimonial-card">
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <p class="mt-3">"La app que desarrollaron para nosotros aumentó la retención de usuarios en un 300%. Increíble trabajo."</p>
+                    <div class="d-flex align-items-center mt-3">
+                        <div class="bg-info rounded-circle me-3" style="width: 50px; height: 50px;"></div>
+                        <div>
+                            <h6 class="mb-0">Carlos Rodríguez</h6>
+                            <small class="text-secondary">Director de Tecnología</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="flip-left" data-aos-delay="200">
+                <div class="testimonial-card">
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-fill text-warning"></i>
+                    <i class="bi bi-star-half text-warning"></i>
+                    <p class="mt-3">"El soporte técnico es inmejorable. Resuelven cualquier incidencia en cuestión de minutos."</p>
+                    <div class="d-flex align-items-center mt-3">
+                        <div class="bg-info rounded-circle me-3" style="width: 50px; height: 50px;"></div>
+                        <div>
+                            <h6 class="mb-0">Ana Martínez</h6>
+                            <small class="text-secondary">COO de GlobalSoft</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="faq" class="bg-black py-5">
+    <div class="container py-5">
+        <div class="text-center mb-5" data-aos="fade-up">
+            <h2 class="display-4 fw-bold">Preguntas <span class="text-info">Frecuentes</span></h2>
+            <p class="text-secondary">Resolvemos tus dudas sobre nuestros servicios</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="faq-item" data-aos="fade-up">
+                    <div class="faq-question" onclick="this.classList.toggle('active')">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-bold">¿Cuánto tiempo toma desarrollar un proyecto?</span>
+                            <i class="bi bi-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="text-secondary mb-0">El tiempo varía según la complejidad del proyecto. Una landing page puede tomar 2-3 semanas, mientras que una aplicación completa puede requerir 2-3 meses. Siempre entregamos un cronograma detallado antes de comenzar.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="faq-question" onclick="this.classList.toggle('active')">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-bold">¿Ofrecen mantenimiento post-lanzamiento?</span>
+                            <i class="bi bi-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="text-secondary mb-0">Sí, ofrecemos planes de mantenimiento mensual que incluyen actualizaciones de seguridad, backups, soporte técnico y mejoras continuas.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="faq-question" onclick="this.classList.toggle('active')">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-bold">¿Qué tecnologías utilizan?</span>
+                            <i class="bi bi-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="text-secondary mb-0">Trabajamos con las tecnologías más modernas: React, Vue, Angular para frontend; Node.js, Python, Java para backend; y AWS, Azure, GCP para cloud.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="faq-question" onclick="this.classList.toggle('active')">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-bold">¿Cómo garantizan la seguridad de mis datos?</span>
+                            <i class="bi bi-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="text-secondary mb-0">Implementamos encriptación de extremo a extremo, backups diarios, auditorías de seguridad mensuales y cumplimos con estándares internacionales como GDPR e ISO 27001.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="contacto" class="bg-black py-5 border-top border-secondary">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-4 text-center text-lg-start">
+                <h3 class="text-info fw-bold">TechNova</h3>
+                <p class="text-secondary small">Transformando el presente, codificando el futuro. Tu socio tecnológico de confianza.</p>
+                <div class="mt-4">
+                    <a href="#" class="btn btn-outline-info btn-sm rounded-circle me-2"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="btn btn-outline-info btn-sm rounded-circle me-2"><i class="bi bi-github"></i></a>
+                    <a href="#" class="btn btn-outline-info btn-sm rounded-circle"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center">
+                <h5 class="fw-bold mb-4">Newsletter</h5>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control bg-dark border-secondary text-white" placeholder="Tu Email">
+                    <button class="btn btn-info" type="button">Unirse</button>
+                </div>
+                <p class="text-secondary small">Únete a +10k suscriptores y recibe noticias exclusivas.</p>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <h5 class="fw-bold mb-4">Contacto</h5>
+                <p class="text-secondary mb-1">Calle Innovación #123, Silicon Valley</p>
+                <p class="text-secondary mb-1">+1 (800) TECH-NOVA</p>
+                <p class="text-info">info@technova.com</p>
+            </div>
+        </div>
+        <hr class="bg-secondary my-5">
+        <p class="text-center text-secondary small mb-0">© 2026 TechNova Labs - Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
